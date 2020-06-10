@@ -1,0 +1,123 @@
+.stopwatch {
+  background-color: black;
+  color: white;
+  height: 300px;
+  width: 250px;
+  box-sizing: border-box;
+  padding: 15px;
+  margin: auto;
+  margin-top: 20px;
+  border-radius: 15px;
+  font-family: "Courier New";
+}
+
+.container {
+  text-align: center;
+}
+
+.display {
+  text-align: center;
+  font-size: 30px;
+  letter-spacing: 3px;
+}
+
+.startBtn {
+  background-color: green;
+  height: 20px;
+  width: 40px;
+  border: 1px solid green;
+  border-radius: 10px;
+  font-size: 10px;
+  font-weight: bold;
+  margin: 5px;
+  padding: 0;
+}
+
+.startBtn:hover {
+  transform: scale(1.1);
+  color: whitesmoke;
+}
+
+.stopBtn {
+  background-color: crimson;
+  height: 20px;
+  width: 40px;
+  border: 1px solid crimson;
+  border-radius: 10px;
+  font-size: 10px;
+  font-weight: bold;
+  margin: 5px;
+  padding: 0;
+}
+
+.stopBtn:hover {
+  transform: scale(1.1);
+  color: whitesmoke;
+}
+
+.lapBtn {
+  background-color: cornflowerblue;
+  height: 20px;
+  width: 40px;
+  border: 1px solid cornflowerblue;
+  border-radius: 10px;
+  font-size: 10px;
+  font-weight: bold;
+  margin: 5px;
+  padding: 0;
+}
+
+.lapBtn:hover {
+  transform: scale(1.1);
+  color: whitesmoke;
+}
+
+.resetBtn {
+  background-color: grey;
+  height: 20px;
+  width: 40px;
+  border: 1px solid grey;
+  border-radius: 10px;
+  font-size: 10px;
+  font-weight: bold;
+  margin: 5px;
+  padding: 0;
+}
+
+.resetBtn:hover {
+  transform: scale(1.1);
+  color: whitesmoke;
+}
+
+.clearBtn {
+  background-color: red;
+  height: 20px;
+  width: 40px;
+  border: 1px solid red;
+  border-radius: 10px;
+  font-size: 10px;
+  font-weight: bold;
+  margin: 5px;
+  padding: 0;
+}
+
+.clearBtn:hover {
+  transform: scale(1.1);
+  color: whitesmoke;
+}
+
+.lapDisplay {
+  width: 200px;
+  height: 200px;
+  margin: auto;
+  letter-spacing: 1px;
+  overflow-y: scroll;
+  font-size: x-small;
+  margin-left: 20px;
+  font-size: 15px;
+}
+
+.lapTime {
+  float: right;
+  margin-right: 20px;
+}
